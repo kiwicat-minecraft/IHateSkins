@@ -1,4 +1,10 @@
 package cat.kiwicat.ihateskins.client;
 
-public class IHateSkinsClient {
+import net.fabricmc.api.ClientModInitializer;
+
+public class IHateSkinsClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+    }
 }
