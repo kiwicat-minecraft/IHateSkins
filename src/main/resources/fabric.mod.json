@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ihateskins",
+  "version": "${version}",
+  "name": "IHateSkins",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kiwi/IHateSkins"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ihateskins/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cat.kiwicat.ihateskins.client.IHateSkinsClient"
+    ],
+    "main": [
+      "cat.kiwicat.ihateskins.IHateSkins"
+    ]
+  },
+  "mixins": [
+    "ihateskins.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
