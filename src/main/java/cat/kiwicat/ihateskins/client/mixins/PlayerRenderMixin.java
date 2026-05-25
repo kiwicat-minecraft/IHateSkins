@@ -20,9 +20,11 @@ abstract class PlayerRenderMixin {
 
 
 
+
     @Inject(method = "getTexture(Lnet/minecraft/client/network/AbstractClientPlayerEntity;)Lnet/minecraft/util/Identifier;", at = @At(value = "HEAD"), cancellable = true)
     private void changePlayerTexture(AbstractClientPlayerEntity abstractClientPlayerEntity, CallbackInfoReturnable<Identifier> cir) {
         if(true) {
+            //TODO: only do if Player is on List
             cir.setReturnValue(MinecraftClient.getInstance().player.getSkinTextures().texture());
         }
     }
