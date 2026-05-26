@@ -1,0 +1,13 @@
+{
+  "text.config.i-hate-skins-config.section.Whitelist": "Whitelist",
+  "text.config.i-hate-skins-config.option.useWhitelist": "Enable Whitelist",
+  "text.config.i-hate-skins-config.option.Whitelist": "Whitelist: ",
+  "text.config.i-hate-skins-config.option.Whitelist.tooltip": "Names are separated by Commas.\nPlayers in this List will use Your Skin.",
+
+  "text.config.i-hate-skins-config.section.Blacklist": "Blacklist",
+  "text.config.i-hate-skins-config.option.useBlacklist": "Enable Blacklist",
+  "text.config.i-hate-skins-config.option.Blacklist": "Blacklist: ",
+  "text.config.i-hate-skins-config.option.Blacklist.tooltip": "Names are separated by Commas.\nPlayers in this List will not use Your Skin.",
+
+  "text.config.i-hate-skins-config.option.activate": "Mod Enabled: "
+}
